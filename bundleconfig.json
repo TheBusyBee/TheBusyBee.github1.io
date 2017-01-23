@@ -1,0 +1,164 @@
+[
+  {
+    "outputFileName": "views/about.html",
+    "inputFiles": [
+      "views/about.html"
+    ]
+  },
+  {
+    "outputFileName": "views/beesure.html",
+    "inputFiles": [
+      "views/beesure.html"
+    ]
+  },
+  {
+    "outputFileName": "views/bnx1536.html",
+    "inputFiles": [
+      "views/bnx1536.html"
+    ]
+  },
+  {
+    "outputFileName": "views/bumblebee.html",
+    "inputFiles": [
+      "views/bumblebee.html"
+    ]
+  },
+  {
+    "outputFileName": "views/careers.html",
+    "inputFiles": [
+      "views/careers.html"
+    ]
+  },
+  {
+    "outputFileName": "views/centrifuge.html",
+    "inputFiles": [
+      "views/centrifuge.html"
+    ]
+  },
+  {
+    "outputFileName": "views/contact.html",
+    "inputFiles": [
+      "views/contact.html"
+    ]
+  },
+  {
+    "outputFileName": "views/hive.html",
+    "inputFiles": [
+      "views/hive.html"
+    ]
+  },
+  {
+    "outputFileName": "views/nanodrop.html",
+    "inputFiles": [
+      "views/nanodrop.html"
+    ]
+  },
+  {
+    "outputFileName": "views/partnership.html",
+    "inputFiles": [
+      "views/partnership.html"
+    ]
+  },
+  {
+    "outputFileName": "views/Synapsis.html",
+    "inputFiles": [
+      "views/Synapsis.html"
+    ]
+  },
+  {
+    "outputFileName": "views/systems.html",
+    "inputFiles": [
+      "views/systems.html"
+    ]
+  },
+  {
+    "outputFileName": "views/VWorks.html",
+    "inputFiles": [
+      "views/VWorks.html"
+    ]
+  },
+  {
+    "outputFileName": "index.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  },
+  {
+    "outputFileName": "JavaScript/bionex.js",
+    "inputFiles": [
+      "JavaScript/bionex.js"
+    ]
+  },
+  {
+    "outputFileName": "JavaScript/hover.js",
+    "inputFiles": [
+      "JavaScript/hover.js"
+    ]
+  },
+  {
+    "outputFileName": "JavaScript/jquery-1.11.js",
+    "inputFiles": [
+      "JavaScript/jquery-1.11.js"
+    ]
+  },
+  {
+    "outputFileName": "JavaScript/JQuery-1.12.js",
+    "inputFiles": [
+      "JavaScript/JQuery-1.12.js"
+    ]
+  },
+  {
+    "outputFileName": "Components/MegaNavbar/assets/css/animation/animation.css",
+    "inputFiles": [
+      "Components/MegaNavbar/assets/css/animation/animation.css"
+    ]
+  },
+  {
+    "outputFileName": "css/BootstrapXL.css",
+    "inputFiles": [
+      "css/BootstrapXL.css"
+    ]
+  },
+  {
+    "outputFileName": "app/controler.js",
+    "inputFiles": [
+      "app/controler.js"
+    ]
+  },
+  {
+    "outputFileName": "views/information.html",
+    "inputFiles": [
+      "views/information.html"
+    ]
+  },
+  {
+    "outputFileName": "views/home.min.min.html",
+    "inputFiles": [
+      "views/home.min.html"
+    ]
+  },
+  {
+    "outputFileName": "views/home.min.html",
+    "inputFiles": [
+      "views/home.html"
+    ]
+  },
+  {
+    "outputFileName": "app/app.min.js",
+    "inputFiles": [
+      "app/app.js"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "views/SLAS.min.html",
+    "inputFiles": [
+      "views/SLAS.html"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+﻿<div id="home">
+
+    <!--[if gte IE 9]><!-->
+    <div class="hidden-xs">
+        <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+            <uib-slide ng-repeat="slide in slides" active="slide.active">
+                <a href="{{slide.href}}"><div class="col-lg-7 col-xl-12 center-block"><img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;"></div></a>
+            </uib-slide>
+        </uib-carousel>
+    </div>
+   
+    <!--<![endif]-->
+
+    <!--[if lt IE 9 ]><div id="jquery-slider"></div><![endif]-->
+    <div class="row">
+        <div class="col-lg-12 center-block" id="home-footer">
+            <div class="row" id="footer-background">
+                <div class="col-lg-12 col-xl-12">
+                    <img class="img-responsive col-lg-10 center-block" src="Images/Backgrounds/multi_background.png" />
+                </div>
+            </div>
+            <div class="row" style="padding-top:36px; display:table;" id=" inner-footer">
+                <!--[if lt IE 9 ]>
+                    <div class="col-lg-2"></div>
+                <![endif]-->
+                <div class=" col-lg-8 center-block" style=" display:table-cell; vertical-align: middle;">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 ">
+                            <div class="thumbnail" id="thumbnail-1">
+                                <div class="caption">
+                                    <h3>ISO 13485 and ISO 9001</h3>
+                                    <p>BioNex Solutions' quality system is <a href="Images/BioNex-Solutions-ISO-Cert.pdf" target="_blank">certified</a> to ISO 13485 and ISO 9001.</p>
+                                    <p>Our strong understanding of engineering and life science applications, combined with our long experience in solving life science problems, makes us well qualified to take your product or idea and develop it into a robust, commercially available product. Depending on your needs, we are open to collaborations, OEM, and/or worldwide sales opportunities.</p>
+                                    <p>
+                                        Please contact us to share your ideas with us in complete privacy. We are excited to tackle your challenges and provide superior solutions to take your laboratory to the next level.
+                                    </p>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 ">
+                            <div class="thumbnail" id="thumbnail-2">
+                                <div class="caption">
+                                    <h3>Strategic Partnership</h3>
+                                    <img class="pull-left" src="Images/thumbnails/agilent-biocel.png" />
+                                    <p> BioNex Solutions is the sole provider of Agilent custom integrated solutions. </p>
+                                    <p><a href="/partnership.html" class="btn btn-primary dropper" role="button">Learn More!</a></p>
+                                </div>
+                                
+                            </div>
+                            <div class="thumbnail" id="thumbnail-3" style="position:static"> 
+                                <div class="caption" style="height:100%;">
+
+                                    <table style="height:100%;">
+                                        <tbody>
+                                            <tr style="height:100%">
+                                                <td class="img-responsive"><img src="Images/thumbnails/lrig.png" /></td>
+                                                <td><h3 style="margin-top:5px;margin-bottom:-3px; font-size:large">Join us at LRIG</h3><p style="font-size:small">Bay Area: September 1, 2016<br>New England:October 13, 2016</p></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                         </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

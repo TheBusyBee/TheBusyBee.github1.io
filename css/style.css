@@ -1,0 +1,392 @@
+﻿.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+html{
+
+      font-family: sans-serif;
+}
+
+#page-content{
+    min-height:100%;
+
+}
+
+body {
+    background-color: #aca9a9;
+    overflow-x:hidden;
+    overflow-y:scroll;
+
+   
+ 
+}
+
+#home-footer {
+
+    
+     /*text-align: center;*/
+     /*display:table;*/
+    /*background-image: url('/Images/Backgrounds/multi_background.png');*/
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #aca9a9;
+    /*width: 100%;*/
+    background-size: 100%;
+    /*min-height:500px;*/
+    /*min-height:100%;*/
+}
+#inner-footer{
+    /*display:table-cell;*/
+    /*vertical-align: middle;*/
+    height:100%;
+    position:absolute; z-index:20;
+    
+}
+
+#footer-background{
+
+    position:absolute;
+   
+           top: 0;
+  left: 0;
+
+
+      }
+
+
+#container {
+    width: auto;
+    height: 800px;
+    /*position: relative;*/
+}
+
+
+
+#other-text {
+    color: white;
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+
+.products {
+    display: inline block;
+}
+
+.center-block {
+    float: none;
+}
+
+
+@media (max-width: 660) {
+
+    .navbar-nav > li > a {
+        line-height: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+/*1/31*/
+h1 {
+    font-family: Arial;
+    color: rgba(6, 121, 153, 0.94);
+    font-size: 33px;
+    font-weight: 500;
+}
+
+h2, h3, h4 {
+    color: #067999;
+}
+  p {
+    padding-top: 5px;
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 18px;
+    font-weight: 500;
+}
+   
+
+
+ul li.dropdown-full {
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 18px;
+  
+    font-weight: 600;
+}
+
+
+    ul li h5 {
+        font-weight: 500;
+        font-size: 16px;
+    } 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: inherit;
+   /*color: #067999;*/
+}
+
+div.caption h3{
+    color: #067999;
+
+}
+.well {
+    background-color: rgba(255, 255, 255, 0.44);
+    border: none;
+    /*border-color:rgba(255, 255, 255, 0.08);*/
+}
+
+#centrifuge {
+    background-image: url('../Images/HiG/HiG_Open.png');
+    min-height: 1500px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#lazer {
+    background-image: url('../Images/lazer/lazer_big.png');
+    min-height: 1500px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+#slas {
+    background-image: url('../Images/stacker/platefeeder-background.png');
+    min-height: 1500px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+#systems {
+    background-image: url('../Images/Backgrounds/systems-background.png');
+    min-height: 1500px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#bumblebee {
+    background-image: url('../Images/BumbleBee/bumblebeeBackground.png');
+    background-position: right top -300px;
+    background-repeat: no-repeat;
+}
+
+#beesure {
+    background-image: url('../Images/Backgrounds/BeeSure-background.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#nanodrop {
+    background-image: url('../Images/Backgrounds/nanodrop-background.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#bnx {
+    background-image: url('../Images/Backgrounds/BNX-background.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#fourarm {
+    background-image: url('../Images/Backgrounds/fourarm_compact.png');
+    min-height: 1500px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#hive {
+    background-image: url('../Images/Backgrounds/smart-kart-baclground.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#about {
+    /*background-image: url('../Images/Hive/Bob.png');
+        min-height: 1500px;
+    background-position: center top ;
+    background-repeat: no-repeat;*/
+}
+
+
+#home {
+   min-height:100%;
+}
+
+/*.media-body p {
+    font-size: 18px;
+}*/
+
+.carousel {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.thumbnail {
+    background-color: rgba(255, 255, 255, 0.20);
+    border: none;
+    padding-top: 0px;
+}
+
+a.dropdown-toggle {
+    height: 69px;
+    padding: 0px;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.navbar {
+}
+
+#main_navbar {
+    margin-bottom: 0px;
+    border-bottom-color: #444444;
+}
+
+li.dropdown-full {
+    padding-bottom: 0px;
+   
+}
+
+.visible-lg-inline, .visible-md-inline, .visible-sm-inline, .visible-xs-inline {
+    color: black;
+    border-bottom: black;
+}
+
+.show-grid {
+    border: none;
+}
+
+video {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.features {
+    padding-top: 36px;
+}
+
+.thumbnail .caption {
+    padding: 6px;
+    padding-top: 0.5px;
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    max-width: 100%;
+}
+
+
+td.label{
+
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 18px;
+    font-weight: 600;
+    text-align:left;
+    padding-top:6px;
+
+
+}
+.db_required, .attention{
+    color:orangered;
+
+}
+
+/*Navbar stuff???*/
+        .show-grid [class^=col-] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: transparent;
+            text-align: center;
+        }
+
+        .show-grid {
+            clear: both;
+        }
+
+        .btn{
+
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+        }
+.footer-gradient{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,aca9a9+48,aca9a9+62&0+0,1+6 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(245,244,244,1) 6%, rgba(172,169,169,1) 48%, rgba(172,169,169,1) 62%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(245,244,244,1) 6%,rgba(172,169,169,1) 48%,rgba(172,169,169,1) 62%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(245,244,244,1) 6%,rgba(172,169,169,1) 48%,rgba(172,169,169,1) 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#aca9a9',GradientType=0 ); /* IE6-9 */
+
+}
+
+#image-brand{
+    height: 50px;
+    margin-top:10px;
+}
+@-moz-document url-prefix() {
+    /*#home-footer {
+        background-size: 100%;
+        height: 100%;
+    }*/
+    #image-brand {
+        height: 50px;
+    }
+
+    a.dropdown-toggle {
+        height: 50px;
+    }
+
+    .navbar-right {
+        height: 20px;
+    }
+
+    .home-slider {
+        max-height: 380px;
+    }
+    /*@media (max-width: 1600) {*/
+    p {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+   
+
+
+
+}
+ .social-media{
+       width:15%;
+    }

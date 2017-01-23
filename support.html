@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BioNex Support</title>
+    <meta charset="utf-8" />
+    <link href="../Components/MegaNavbar/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Components/MegaNavbar/assets/css/MegaNavbar.min.css" />
+    <link href="../css/navbar.css" rel="stylesheet" />
+    <link href="../css/style.min.css" rel="stylesheet" />
+    <link href="../css/BootstrapXL.min.css" rel="stylesheet" />
+    <script src="../Components/jquery/dist/jquery.min.js"></script>
+    <script src="../Components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <script type="text/javascript" src="https://app.imeetcentral.com/s.v20160347/js/cc-external.js"></script>
+
+    <nav class="navbar navbar-dark-dark no-border-radius no-shadow xs-height75 navbar-static-top" id="main_navbar" role="navigation">
+        <div class="row ">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 center-block">
+                <div class="navbar-header">
+                    <a href="home.html" ng-click="adjustThumbnails()"> <img src="Images/logo-white-letter.png" image-brand id="image-brand" /></a>
+                </div>
+                <div class="collapse navbar-collapse  id=" navbar-brand_size_lg" uib-collapse="isCollapsed">
+
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="row" style="padding-top:36px">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-8 col-md-8 col-sm-10 center-block well ">
+
+
+            <form action="https://bionexsolutions.imeetcentral.com/spaces/doaction_db" method="post" enctype="multipart/form-data"
+                  id="db_record" name="db_record" accept-charset="utf8" onsubmit="return cd_db_field_validate(this, event);">
+                <input type="hidden" name="do" value="add" />
+                <input type="hidden" name="loc" value="http://bionexsolutions.com/thankyou.html" />
+                <input type="hidden" name="guid" value="r9vb9oxk6p15j94vtt8ez1b638776596" />
+                <input type="hidden" name="spid" value="502904" />
+                <input type="hidden" name="source" value="custom" />
+                <input type="hidden" name="textarea_type" value="txt" />
+                <input type="hidden" name="db_method" value="guid" />
+
+                <!--<table class="table">
+            <tr>
+                <th><label for="lzomhqci638762453k">Subject <span class="db_required">*</span></label></th>
+                <th><input class="required" style="width: 250px;" type="text" name="lzomhqci638762453k" value="" id="lzomhqci638762453k" /></th>
+            </tr>
+            <tr>
+                <th><label for="a9pk6ulm638762456p">Submitted By <span class="db_required">*</span></label></th>
+                <th><input class="required" style="width: 250px;" type="text" name="a9pk6ulm638762456p" value="" id="a9pk6ulm638762456p" /></th>
+            </tr>
+            <tr>
+                <th><label for="umevt8m1638762457p">Description<span class="db_required">*</span></label></th>
+                <th><textarea class="required" style="min-width:100%; height:200px" type="text" name="umevt8m1638762457p" value="" id="umevt8m1638762457p"></textarea></th>
+            </tr>
+            <tr>
+                <th><label for="r33nbixm638762459e">Urgency <span class="db_required">*</span></label></th>
+                <th>
+                    <select name="r33nbixm638762459e" id="r33nbixm638762459e" class="required validate-is-not-addon fix-iewidth">
+                        <option value=""></option>
+                        <option value="1 - Needs immediate attention  production has stopped">1 - Needs immediate attention  production has stopped</option>
+                        <option value="2">2</option>
+                        <option value="3 - Still operational  but production has been affected">3 - Still operational  but production has been affected</option>
+                        <option value="4">4</option>
+                        <option value="5 - Production is not affected">5 - Production is not affected</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th><label for="c_company_name">Company Name <span class="db_required">*</span></label></th>
+                <th><input class="required" style="width: 250px;" type="text" name="c_company_name" value="" id="c_company_name" /></th>
+            </tr>
+        </table>-->
+                <div class="row">
+                    <div class="form-group col-lg-3  col-md-3">
+                        <label for="lzomhqci638762453k">Subject <span class="db_required">*</span></label>
+                        <input class="required" style="width: 250px;" type="text" name="lzomhqci638762453k" value="" id="lzomhqci638762453k" />
+                    </div>
+                    <div class="col-lg-1 col-md-1"></div>
+                    <div class="form-group col-lg-3  col-md-3">
+                        <label for="a9pk6ulm638762456p">Submitted By <span class="db_required">*</span></label>
+                        <input class="required" style="width: 250px;" type="text" name="a9pk6ulm638762456p" value="" id="a9pk6ulm638762456p" />
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-lg-7  col-md-7">
+                        <label for="umevt8m1638762457p">Description<span class="db_required">*</span></label>
+                        <textarea class="required" style="min-width:100%; height:200px" type="text" name="umevt8m1638762457p" value="" id="umevt8m1638762457p"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-lg-3  col-md-12">
+                        <label for="r33nbixm638762459e">Urgency <span class="db_required">*</span></label>
+                        <select name="r33nbixm638762459e" id="r33nbixm638762459e" class="required validate-is-not-addon fix-iewidth form-control">
+                            <option value=""></option>
+                            <option value="1 - Needs immediate attention  production has stopped">1 - Needs immediate attention  production has stopped</option>
+                            <option value="2">2</option>
+                            <option value="3 - Still operational  but production has been affected">3 - Still operational  but production has been affected</option>
+                            <option value="4">4</option>
+                            <option value="5 - Production is not affected">5 - Production is not affected</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-1 col-md-1"></div>
+                    <div class="form-group col-lg-3  col-md-12">
+                        <label for="qzopbyl9638762461l">Serial Number of Unit <span class="db_required">*</span></label>
+                        <input class="required" style="width: 250px;" type="text" name="qzopbyl9638762461l" value="" id="qzopbyl9638762461l" />
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group col-lg-3  col-md-3">
+                        <label for="c_company_name">Company Name <span class="db_required">*</span></label>
+                        <input class="required" style="width: 250px;" type="text" name="c_company_name" value="" id="c_company_name" />
+                    </div>
+                    <div class="col-lg-1 col-md-1"></div>
+                    <div class="form-group col-lg-3  col-md-3">
+                        <label for="c_submitter_email_address">Email Address <span class="db_required">*</span></label>
+                        <input class="required validate-email" style="width: 250px;" type="text" name="c_submitter_email_address" value="" id="c_submitter_email_address" />
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group col-lg-3  col-md-3">
+                        <label for="c_submitter_phone_number">Submitter Phone Number <span class="db_required">*</span></label>
+                        <input class="required" style="width: 250px;" type="text" name="c_submitter_phone_number" value="" id="c_submitter_phone_number" />
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group col-lg-4  col-md-4"><input type="file" name="userfile[]" /> (100MB Max) </div>
+
+                    <div class="form-group col-lg-4  col-md-4">Description: <input type="text" name="userfile_description[]" /></div>
+                </div>
+                <div class="row">
+
+                    <div class="form-group col-lg-4  col-md-4"><input type="file" name="userfile[]" /> (100MB Max) </div>
+
+                    <div class="form-group col-lg-4  col-md-4">Description: <input type="text" name="userfile_description[]" /></div>
+                </div>
+                <div class="row">
+
+                    <div class="form-group col-lg-4  col-md-4"><input type="file" name="userfile[]" /> (100MB Max) </div>
+
+                    <div class="form-group col-lg-4  col-md-4">Description: <input type="text" name="userfile_description[]" /></div>
+                </div>
+                <p>Fields Marked with a <span class="db_required">*</span> are required</p>
+
+                <p class="c"><input type="submit" name="db_submit" class="button btn btn-primary" value="Submit" /></p>
+
+
+            </form>
+
+
+        </div>
+    </div>
+    <script>
+        var valid = new Validation("db_record", { immediate: true });
+
+    </script>
+
+
+</body>
+</html>

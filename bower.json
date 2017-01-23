@@ -1,0 +1,12 @@
+{
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "*",
+    "angular.js": "*",
+    "angular-sanitize": "*",
+    "angular-animate": "*",
+    "angular-bootstrap": "*",
+    "angular-touch": "*"
+  }
+}

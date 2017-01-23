@@ -1,0 +1,120 @@
+﻿<!DOCTYPE&nbsp;html>
+<html >
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contento="width=device-width, initial-scale=1">
+    <meta name="description" content="Laboratory Automation,  HiG Automated Centrifuge, BeeSure Level Sensing System, BNX1536 Liquid Handler, Nanodrop Automated Pipettors, Hive Automation Platform, VWorks "/>
+    <title>BioNex Solutions Laboratory Automation - Bumblebee Sample Handler, HiG Automated Centrifuge, BeeSure Level Sensing System, BNX1536 Liquid Handler, Nanodrop Automated Pipettors, Hive Automation Platform, VWorks</title>
+    <meta content="" name="Bionexsolutions.com" />
+    <!-- Bootstrap -->
+    <link href="Components/MegaNavbar/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/yeti.css" rel="stylesheet" />-->
+    <!-- Font Awesome -->
+    <link href="Components/MegaNavbar/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="Components/MegaNavbar/assets/css/MegaNavbar.min.css" />
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Components/MegaNavbar/assets/css/animation/animation.min.css" title="inverse">
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link href="css/BootstrapXL.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <script  src="JavaScript/JQuery-1.12.min.js"></script>
+    <base href="/" />
+ <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script src="JavaScript/bionex.js"></script>
+<![endif]-->
+
+    <script async src="Components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--only load angular for IE9 and above-->
+    <!--[if gte IE 9]><!-->
+    <script   src="Components/angular.js/angular.min.js"></script>
+    <script   src="Components/angular.js/angular-route.min.js"></script>
+    <script   src="Components/angular.js/angular-animate.min.js"></script>
+    <script   src="Components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script   src="Components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script   src="Components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script   src="Components/angular-touch/angular-touch.min.js"></script>
+    <script   src="app/app.min.js"></script>
+    <script   src="app/controler.js"></script>
+
+    
+    <!--<![endif]-->
+</head>
+<body ng-app="bionexApp" id="ng-app" ng-controller="MainCtrl">
+    <div ng-include="'views/header.html'"></div>
+    <div style="display:none" id="page-content">
+        <div ng-view id="LoadMe"></div>
+    </div>
+    <!--[if lt IE 9 ]> <html lang="en" class="ie8">
+
+        <script> 
+var $buoop = {c:2}; 
+function $buo_f(){ 
+ var e = document.createElement("script"); 
+ e.src = "//browser-update.org/update.min.js"; 
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script> 
+	
+        
+        <![endif]-->
+
+
+
+
+    <script>
+
+        //Start navbar toggle fix top bottom
+        $(document).on('click', '.toggle_fixing', function (e) {
+            e.preventDefault();
+            if ($('#main_navbar').hasClass('navbar-fixed-top')) {
+                $('#main_navbar').toggleClass('navbar-fixed-bottom navbar-fixed-top');
+                $(this).children('i').toggleClass('fa-chevron-down fa-chevron-up');
+            } else {
+                $('#main_navbar').toggleClass('navbar-fixed-bottom');
+                $(this).children('i').toggleClass('fa-chevron-down fa-chevron-up');
+                if ($('#main_navbar').parent('div').hasClass('container')) $('#main_navbar').children('div').addClass('container').removeClass('container-fluid');
+                else if ($('#main_navbar').parent('div').hasClass('container-fluid')) $('#main_navbar').children('div').addClass('container-fluid').removeClass('container');
+                FixMegaNavbar(navHeight);
+            }
+            if ($('#main_navbar').hasClass('navbar-fixed-top')) { $('body').css({ 'margin-top': $('#main_navbar').height() + 'px', 'margin-bottom': '' }); }
+            else if ($('#main_navbar').hasClass('navbar-fixed-bottom')) { $('body').css({ 'margin-bottom': $('#main_navbar').height() + 'px', 'margin-top': '' }); }
+        })
+        //End navbar toggle fix top bottom
+
+        //Start Fix MegaNavbar on scroll page
+        var navHeight = $('#main_navbar').offset().top;
+        FixMegaNavbar(navHeight);
+        $(window).bind('scroll', function () { FixMegaNavbar(navHeight); });
+
+        function FixMegaNavbar(navHeight) {
+            if (!$('#main_navbar').hasClass('navbar-fixed-bottom')) {
+                if ($(window).scrollTop() > navHeight) {
+                    $('#main_navbar').addClass('navbar-fixed-top')
+                    $('body').css({ 'margin-top': $('#main_navbar').height() + 'px' });
+                    if ($('#main_navbar').parent('div').hasClass('container')) $('#main_navbar').children('div').addClass('container').removeClass('container-fluid');
+                    else if ($('#main_navbar').parent('div').hasClass('container-fluid')) $('#main_navbar').children('div').addClass('container-fluid').removeClass('container');
+                }
+                else {
+                    $('#main_navbar').removeClass('navbar-fixed-top');
+                    $('#main_navbar').children('div').addClass('container-fluid').removeClass('container');
+                    $('body').css({ 'margin-top': '' });
+                }
+            }
+        }
+        //End Fix MegaNavbar on scroll page
+
+        //Next code used to prevent unexpected menu close when using some components (like accordion, tabs, forms, etc), please add the next JavaScript to your page
+        $(window).load(function () {
+            $(document).on('click', '.navbar .dropdown-menu', function (e) { e.stopPropagation(); });
+        });
+    </script>
+</body>
+
+</html>
