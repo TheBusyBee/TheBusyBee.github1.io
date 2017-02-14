@@ -85,47 +85,52 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
     $scope.noWrapSlides = false;
     var slides = $scope.slides = [];
 
+    //slides.push({
+    //    image: 'Images/sliders/laser-slider.png',
+    //    href: 'stinger.html'
+
+    //});
+    //slides.push({
+    //    image: 'Images/sliders/hive-slider.png',
+    //    href: 'hive.html'
+
+    //});
+
     slides.push({
-        image: 'Images/sliders/laser-slider.png',
-        href: 'stinger.html'
-
-    });
-    slides.push({
-        image: 'Images/sliders/hive-slider.png',
-        href: 'hive.html'
-
+        image: 'Images/sliders/laser.png',
+        href: 'bumblebee.html'
     });
 
 
-    slides.push({
-        image: 'Images/sliders/BeeSmartKart.png',
-        href: 'hive.html'
+    //slides.push({
+    //    image: 'Images/sliders/BeeSmartKart.png',
+    //    href: 'hive.html'
 
-    });
+    //});
     slides.push({
         image: 'Images/sliders/bumblebee-slider.png',
         href: 'bumblebee.html'
     });
-    slides.push({
-        image: 'Images/sliders/hig-slider.png',
-        href: 'centrifuge.html'
-    });
-    slides.push({
-        image: 'Images/sliders/beessure-slider.png',
-        href: 'beesure.html'
-    });
-    slides.push({
-        image: 'Images/sliders/BNX1536-slider.png',
-        href: 'bnx1536.html'
-    });
-    slides.push({
-        image: 'Images/sliders/nanodrop-slider.png',
-        href: 'nanodrop.html'
-    });
-    slides.push({
-        image: 'Images/sliders/direct-drive-slider.png',
-        href: 'systems.html'
-    });
+    //slides.push({
+    //    image: 'Images/sliders/hig-slider.png',
+    //    href: 'centrifuge.html'
+    //});
+    //slides.push({
+    //    image: 'Images/sliders/beessure-slider.png',
+    //    href: 'beesure.html'
+    //});
+    //slides.push({
+    //    image: 'Images/sliders/BNX1536-slider.png',
+    //    href: 'bnx1536.html'
+    //});
+    //slides.push({
+    //    image: 'Images/sliders/nanodrop-slider.png',
+    //    href: 'nanodrop.html'
+    //});
+    //slides.push({
+    //    image: 'Images/sliders/direct-drive-slider.png',
+    //    href: 'systems.html'
+    //});
 
 
 });

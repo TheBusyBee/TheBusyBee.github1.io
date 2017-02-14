@@ -35,7 +35,7 @@ body {
     /*min-height:500px;*/
     /*min-height:100%;*/
 }
-#inner-footer{
+.inner-footer{
     /*display:table-cell;*/
     /*vertical-align: middle;*/
     height:100%;
@@ -239,13 +239,13 @@ div.caption h3{
 
 .carousel {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;1+0,0+100;White+to+Transparent */
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+   
+    background-color:none;
+    }
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
 }
 
 .thumbnail {
@@ -390,3 +390,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
  .social-media{
        width:15%;
     }
+
+
+ @media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+ .carousel-indicators li { visibility: hidden; }
