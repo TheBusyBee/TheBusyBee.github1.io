@@ -81,7 +81,7 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
         }
     }
 
-    $scope.myInterval = 4000;
+    $scope.myInterval = 8000;
     $scope.noWrapSlides = false;
     var slides = $scope.slides = [];
 
@@ -97,6 +97,11 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
     //});
 
     slides.push({
+        image: 'Images/sliders/hive-slider.png',
+        href: 'bumblebee.html'
+    });
+
+    slides.push({
         image: 'Images/sliders/laser.png',
         href: 'bumblebee.html'
     });
@@ -107,10 +112,7 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
     //    href: 'hive.html'
 
     //});
-    slides.push({
-        image: 'Images/sliders/hive-slider.png',
-        href: 'bumblebee.html'
-    });
+
 
         slides.push({
         image: 'Images/sliders/bumblebee-slider.png',
