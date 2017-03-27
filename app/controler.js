@@ -108,9 +108,16 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
 
     //});
     slides.push({
+        image: 'Images/sliders/hive-slider.png',
+        href: 'bumblebee.html'
+    });
+
+        slides.push({
         image: 'Images/sliders/bumblebee-slider.png',
         href: 'bumblebee.html'
     });
+
+
     //slides.push({
     //    image: 'Images/sliders/hig-slider.png',
     //    href: 'centrifuge.html'
