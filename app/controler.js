@@ -98,12 +98,12 @@ bionexControllers.controller('MainCtrl', function ($scope, $rootScope, $location
 
     slides.push({
         image: 'Images/sliders/hive-slider.png',
-        href: 'bumblebee.html'
+        href: 'hive.html'
     });
 
     slides.push({
         image: 'Images/sliders/laser.png',
-        href: 'bumblebee.html'
+        href: 'hibeam.html'
     });
 
 

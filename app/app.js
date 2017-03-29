@@ -46,10 +46,14 @@ bionexApp.config(['$routeProvider', '$locationProvider',
            templateUrl: 'views/nanodrop.min.html',
            //controller: 'HomeCtrl'
        }).
-       when('/stinger.html', {
-          templateUrl: 'views/stinger.min.html',
+       when('/hibeam.html', {
+          templateUrl: 'views/hibeam.min.html',
                      //controller: 'HomeCtrl'
        }).
+       when('/stinger.html', {
+                     templateUrl: 'views/stinger.min.html',
+                     //controller: 'HomeCtrl'
+                 }).
       when('/stacker.html', {
                      templateUrl: 'views/stacker.min.html',
                      //controller: 'HomeCtrl'
